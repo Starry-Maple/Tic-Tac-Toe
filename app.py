@@ -45,6 +45,7 @@ def gameloop(play):
 gameloop(True)
 again=str(input(("Play again? (Y/N) ")))
 if again.lower()=="y":
+    board = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     gameloop(True)
 else:
     gameLoop(False)
